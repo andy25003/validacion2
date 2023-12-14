@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Quejas</title>
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="img/vector-degradado-logotipo-colorido-pajaro_343694-1365.png" alt="Logo">
+        </div>
+        <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="MainPage.html">Inicio</a></li>
+                <li><a href="productPage.html">Tienda</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <div class="back">
+    <h1>Formulario de Quejas</h1>
+    <form>
+        <div class="input">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="name" required>
+        </div>  
+        <div class="input">
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        </div>
+        <div class="input">
+        <label for="juego">Nombre del Juego:</label>
+        <input type="text" id="juego" name="juego" required>
+        </div>
+        <div class="input">
+        <label for="queja">Describe tu queja:</label>
+        <textarea id="queja" name="queja" rows="4" cols="50" required></textarea>
+        </div>
+        <button type="submit">ENVIAR</button>
+    </form>
+</div>
+    <br>
+    <footer>
+        <p>Autor: Jiaxing Chen</p>
+    </footer>
+</body>
+</html>
